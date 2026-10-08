@@ -1,6 +1,9 @@
 name: CI
 
-on: push
+on:
+  push:
+  pull_request:
+    branches: [main]
 
 jobs:
   test:
@@ -80,4 +83,6 @@ jobs:
           PY
 
       - name: Evaluate model
+        env:
+          MIN_ROC_AUC: "0.90"
         run: python -m churn.evaluate
