@@ -25,5 +25,7 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Models
-*.joblib
+# Artifacts
+
+/models
+/outputs
