@@ -5,6 +5,7 @@ tröskeln. Ett steg som avslutar med felkod blir rött i GitHub Actions, och då
 de jobb som väntar på det.
 
 Tröskeln kan ändras med miljövariabeln MIN_ROC_AUC.
+
 """
 
 import json
