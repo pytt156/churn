@@ -20,6 +20,12 @@ on:
       - "uv.lock"
       - ".github/workflows/**"
 
+  schedule:
+    - cron: "0 6 * * 1"
+      timezone: "Europe/Stockholm"
+  
+  workflow_dispatch:
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
