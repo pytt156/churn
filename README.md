@@ -32,7 +32,7 @@ Två regler:
   analysteamet. Ditt arbete är workflows, tester och inställningar i repot.
 - Ingen pushar direkt till main när vi väl har skydd på plats. Allt går via pull requests.
 
-Lycka till, och fråga hellre en gång för mycket.
+Lycka till, och fråga hellre en gång för mycket!
 
 *Teamleaden*
 
