@@ -1,5 +1,5 @@
 name: Setup project
-desciption: Install Python and project dependencies
+description: Install Python and project dependencies
 
 inputs:
   python-version:
